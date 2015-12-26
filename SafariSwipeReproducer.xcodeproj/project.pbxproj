@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2336DA831C24845200299526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336DA821C24845200299526 /* main.m */; };
+		2336DA861C24845200299526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336DA851C24845200299526 /* AppDelegate.m */; };
+		2336DA891C24845200299526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336DA881C24845200299526 /* ViewController.m */; };
+		2336DA8E1C24845200299526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2336DA8D1C24845200299526 /* Assets.xcassets */; };
+		2336DA911C24845200299526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2336DA8F1C24845200299526 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2336DA7E1C24845200299526 /* SafariSwipeReproducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariSwipeReproducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2336DA821C24845200299526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2336DA841C24845200299526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2336DA851C24845200299526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2336DA871C24845200299526 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2336DA881C24845200299526 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2336DA8D1C24845200299526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2336DA901C24845200299526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2336DA921C24845200299526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2336DA7B1C24845200299526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2336DA751C24845200299526 = {
+			isa = PBXGroup;
+			children = (
+				2336DA801C24845200299526 /* SafariSwipeReproducer */,
+				2336DA7F1C24845200299526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2336DA7F1C24845200299526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2336DA7E1C24845200299526 /* SafariSwipeReproducer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2336DA801C24845200299526 /* SafariSwipeReproducer */ = {
+			isa = PBXGroup;
+			children = (
+				2336DA841C24845200299526 /* AppDelegate.h */,
+				2336DA851C24845200299526 /* AppDelegate.m */,
+				2336DA871C24845200299526 /* ViewController.h */,
+				2336DA881C24845200299526 /* ViewController.m */,
+				2336DA8D1C24845200299526 /* Assets.xcassets */,
+				2336DA8F1C24845200299526 /* LaunchScreen.storyboard */,
+				2336DA921C24845200299526 /* Info.plist */,
+				2336DA811C24845200299526 /* Supporting Files */,
+			);
+			path = SafariSwipeReproducer;
+			sourceTree = "<group>";
+		};
+		2336DA811C24845200299526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2336DA821C24845200299526 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2336DA7D1C24845200299526 /* SafariSwipeReproducer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2336DA951C24845200299526 /* Build configuration list for PBXNativeTarget "SafariSwipeReproducer" */;
+			buildPhases = (
+				2336DA7A1C24845200299526 /* Sources */,
+				2336DA7B1C24845200299526 /* Frameworks */,
+				2336DA7C1C24845200299526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariSwipeReproducer;
+			productName = SafariSwipeReproducer;
+			productReference = 2336DA7E1C24845200299526 /* SafariSwipeReproducer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2336DA761C24845200299526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Julian Weiss";
+				TargetAttributes = {
+					2336DA7D1C24845200299526 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2336DA791C24845200299526 /* Build configuration list for PBXProject "SafariSwipeReproducer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2336DA751C24845200299526;
+			productRefGroup = 2336DA7F1C24845200299526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2336DA7D1C24845200299526 /* SafariSwipeReproducer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2336DA7C1C24845200299526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2336DA911C24845200299526 /* LaunchScreen.storyboard in Resources */,
+				2336DA8E1C24845200299526 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2336DA7A1C24845200299526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2336DA891C24845200299526 /* ViewController.m in Sources */,
+				2336DA861C24845200299526 /* AppDelegate.m in Sources */,
+				2336DA831C24845200299526 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2336DA8F1C24845200299526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2336DA901C24845200299526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2336DA931C24845200299526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2336DA941C24845200299526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2336DA961C24845200299526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariSwipeReproducer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insanj.SafariSwipeReproducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2336DA971C24845200299526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariSwipeReproducer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insanj.SafariSwipeReproducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2336DA791C24845200299526 /* Build configuration list for PBXProject "SafariSwipeReproducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2336DA931C24845200299526 /* Debug */,
+				2336DA941C24845200299526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2336DA951C24845200299526 /* Build configuration list for PBXNativeTarget "SafariSwipeReproducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2336DA961C24845200299526 /* Debug */,
+				2336DA971C24845200299526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2336DA761C24845200299526 /* Project object */;
+}
