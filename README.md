@@ -8,7 +8,9 @@ I ultimately want this bug eliminated as soon as possible and with as much publi
 
 Enjoy!
 
-**[Demo Video](demo.mov)**
+![](demo.gif)
+
+**[Demo Video](https://streamable.com/u19b)** (local file available [here](demo.mov))
 
 ---
 
